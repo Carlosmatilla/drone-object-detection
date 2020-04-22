@@ -1,0 +1,125 @@
+
+.button-container
+   position: absolute
+   top: 0
+   left: 0
+   width: 100%
+   height: 100%
+   display: flex
+   justify-content: center
+   align-items: center
+   flex-direction: column
+   z-index: 1
+   
+   
+   
+
+    
+.mt
+    margin: 1rem
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title
+    font-family: 'Montserrat', sans-serif
+    text-transform: uppercase
+    font-size: 1.1rem
+    list-style: none
+    
+
+
+
+
+
+
+
+@keyframes bounceIn 
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to 
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
+  
+
+  0% 
+    opacity: 0
+    transform: scale3d(0.3, 0.3, 0.3)
+  
+
+  20% 
+    transform: scale3d(1.15, 1.15, 1.15)
+  
+
+  40% 
+    transform: scale3d(0.9, 0.9, 0.9)
+  
+
+  60% 
+    opacity: 1
+    transform: scale3d(1.05, 1.05, 1.05)
+  
+
+  80% 
+    transform: scale3d(0.97, 0.97, 0.97)
+  
+
+  to 
+    opacity: 1
+    transform: scale3d(1, 1, 1)
+  
+.button
+    background-color: Transparent
+    color: #fff
+    padding: 0.5rem 1rem
+    border: 1px solid #FFF
+    border-radius: 1.2rem
+    outline: none
+    font-size: 1rem
+    font-family: 'Montserrat', sans-serif
+    transition: .3s
+    filter: opacity(70%)
+    cursor: pointer
+    &:hover
+        transform: scale(1.2)
+        filter: opacity(100%)
+        
+
+.btn-radius
+    padding: 0.5rem !important
+    border: none
+    &:hover
+        transform: scale(1)
+        
+        
+
+.wrap
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    // background-color: rgba(138, 138, 138, 0.2)
+    border-radius: 1rem
+    padding: 1rem
+    
+
+.gray
+    filter: opacity(70%)
+    color: #fff
+
+.bounce-animation
+    animation: bounceIn 1.1s
+
