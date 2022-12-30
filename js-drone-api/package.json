@@ -22,7 +22,7 @@
   "devDependencies": {
     "babel": "^6.23.0",
     "chai": "^4.2.0",
-    "mocha": "^7.1.0",
+    "mocha": "^10.2.0",
     "nodemon": "^2.0.2",
     "nyc": "^15.0.0"
   }
